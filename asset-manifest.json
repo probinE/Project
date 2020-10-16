@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/probinE/Project/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/probinE/Project/static/js/main.72636872.chunk.js",
+    "main.js.map": "/probinE/Project/static/js/main.72636872.chunk.js.map",
+    "runtime-main.js": "/probinE/Project/static/js/runtime-main.5242d687.js",
+    "runtime-main.js.map": "/probinE/Project/static/js/runtime-main.5242d687.js.map",
+    "static/css/2.7be69c7a.chunk.css": "/probinE/Project/static/css/2.7be69c7a.chunk.css",
+    "static/js/2.f631dc65.chunk.js": "/probinE/Project/static/js/2.f631dc65.chunk.js",
+    "static/js/2.f631dc65.chunk.js.map": "/probinE/Project/static/js/2.f631dc65.chunk.js.map",
+    "index.html": "/probinE/Project/index.html",
+    "precache-manifest.05a2a968dee4e26c1e8b990d1d985579.js": "/probinE/Project/precache-manifest.05a2a968dee4e26c1e8b990d1d985579.js",
+    "service-worker.js": "/probinE/Project/service-worker.js",
+    "static/css/2.7be69c7a.chunk.css.map": "/probinE/Project/static/css/2.7be69c7a.chunk.css.map",
+    "static/css/main.5ecd60fb.chunk.css.map": "/probinE/Project/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.f631dc65.chunk.js.LICENSE.txt": "/probinE/Project/static/js/2.f631dc65.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5242d687.js",
+    "static/css/2.7be69c7a.chunk.css",
+    "static/js/2.f631dc65.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.72636872.chunk.js"
+  ]
+}
