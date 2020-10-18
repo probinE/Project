@@ -17,6 +17,7 @@ class TodoDashboard extends Component {
         store.dispatch({ type: "UserID", value: TodoList[0].key })
         store.dispatch({ type: "InsertTodo", value: InsertTodo })
         store.dispatch({ type: "visible", value: true })
+        await store.dispatch({ type: "TabCheck", value: "Todo" })
         await store.dispatch({ type: "Flag", value: "U" })
     }
     Cancel = (key, e) => {

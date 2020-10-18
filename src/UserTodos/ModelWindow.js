@@ -57,7 +57,7 @@ export const ModelWindow = ({ handleOk, handleCancel, props, OnchangeTodo, Oncha
                     <div style={{ padding: "10px" }}>
                         <Label>Date Added</Label>
                         <br />
-                        <DatePicker name="TodoDate" value={dateDisplay} style={ReduxState.UserTodo.DateError === true && ReduxState.UserTodo.Error === true ? { border: "1px solid #ef1a04" } : { border: "1px solid #d9d9d9" }} onChange={OnchangeTodoDate} />
+                        <DatePicker name="TodoDate" value={dateDisplay} style={ReduxState.UserTodo.DateError === true && ReduxState.UserTodo.Error === true ? { border: "1px solid #ef1a04", width: "100%" } : { border: "1px solid #d9d9d9", width: "100%" }} onChange={OnchangeTodoDate} />
                     </div></React.Fragment>) :
                 (<React.Fragment> <div style={{ padding: "10px" }}>
                     <Label>Name</Label>

@@ -17,7 +17,7 @@ class Todos extends Component {
     }
     async componentDidMount() {
         this.props.ClearField();
-        await store.dispatch({ type: "RESET_TODOUSER" })
+        // await store.dispatch({ type: "RESET_TODOUSER" })
     }
     showModal = (e) => {
         debugger;

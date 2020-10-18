@@ -18,6 +18,7 @@ class UserDashboard extends Component {
         store.dispatch({ type: "UserID", value: UserList[0].key })
         store.dispatch({ type: "InsertUser", value: InsertUser })
         store.dispatch({ type: "visible", value: true })
+        await store.dispatch({ type: "TabCheck", value: "User" })
         await store.dispatch({ type: "Flag", value: "U" })
     }
     Cancel = (key, e) => {
